@@ -286,4 +286,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
-/GameDevice/data/visits.csv
+
+#real-data-remover
+data
+data/*.*
