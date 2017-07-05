@@ -14,8 +14,8 @@ namespace GameDevice
     class Program
     {
         private static EventHubClient eventHubClient;
-        private const string EhConnectionString = "Endpoint=sb://game-hack.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=tpIQ4lNYjbve068X+kpMvWAUUMQuy47CpA4i054OIfM=;EntityPath=data-ingress";
-        private const string EhEntityPath = "data-ingress";
+        private const string EhConnectionString = "<Enter Event Hub Connection String>";
+        private const string EhEntityPath = "<Enter Entry Point>";
 
         static void Main(string[] args)
         {
